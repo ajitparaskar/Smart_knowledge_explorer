@@ -1,0 +1,13 @@
+{
+  "name": "smart-knowledge-explorer-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "postinstall": "npm --prefix smart-frontend install",
+    "dev": "npm --prefix smart-frontend run dev",
+    "build": "npm --prefix smart-frontend run build",
+    "lint": "npm --prefix smart-frontend run lint",
+    "preview": "npm --prefix smart-frontend run preview"
+  }
+}
+
